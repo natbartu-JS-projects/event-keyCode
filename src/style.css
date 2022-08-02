@@ -32,3 +32,19 @@ body {
   min-width: 150px;
   position: relative;
 }
+
+.key small {
+  position: absolute;
+  top: -24px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  color: #555;
+  font-size: 14px;
+}
+
+@media(max-width:768px){
+  .key{
+    margin: 10px 0px;
+  }
+}
